@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <title>Music Player With Lyrics</title>
+</head>
+<body>
+    <div class="music-player">
+        <audio id="audio" controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your Browser Doesn't Support the audio element
+        </audio>
+        <div class="controls">
+            <button class="play-pause" id="play-pause">Play/Pause</button>
+            <button class="stop" id="stop">Stop</button>
+        </div>
+        <div class="lyrics" id="lyrics"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

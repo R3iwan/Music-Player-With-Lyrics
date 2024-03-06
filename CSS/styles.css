@@ -1,0 +1,25 @@
+.music-player{
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.controls button{
+    margin: 10px;
+    padding: 5px 10px;
+    background-color:darkgray;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.lyrics {
+    border: 1px solid black;
+    padding: 10px;
+    color: black; 
+    opacity: 1; 
+    visibility: visible; 
+    font-size: 16px; 
+    font-family: Arial, sans-serif; 
+    font-weight: normal;
+}
